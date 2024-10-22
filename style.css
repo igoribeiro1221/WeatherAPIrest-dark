@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+* {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1495757450029-09dbedacbc36?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.808);
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 30px;
+  margin-bottom: 200px;
+  width: 85%;
+  max-width: 500px;
+}
+
+.container .input-city {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #474747;
+  color: white;
+  width: calc(100% - 90px);
+  
+}
+
+.container .button-search {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #474747;
+  text-align: center;
+cursor: pointer;
+float:right;
+}
+
+.container .img-search {
+width: 20px;
+}
+
+.bigger-box {
+  margin-top: 30px;
+}
+
+
+.bigger-box .city {
+  font-size: 30px;
+  font-weight: 300;
+  display: flex;
+}
+.bigger-box .country {
+  font-size: 30px;
+  font-weight: 300;
+  display: flex;
+}
+
+.bigger-box .temp {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.small-box {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.small-box .img-prevision {
+  width: 60px;
+  
+}
+
+.small-box .weather {
+  margin-left: 15px;
+  text-transform: capitalize;
+}
+
+.humi {
+  margin-top: 20px;
+  font-size: 18px;
+}
